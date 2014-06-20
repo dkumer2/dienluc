@@ -43,7 +43,9 @@ class AppController extends Controller {
 			)
 		)
 	);
-
+	public function beforeFilter() {    	
+        $this->set('current_controller',$this->params['controller']);        
+    }
 	public $helpers = array(
 		'Session',
 		'CakeLess.Less',

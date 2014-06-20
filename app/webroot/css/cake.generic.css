@@ -97,8 +97,15 @@ p {
 	background: #003d4c;
 	text-decoration: underline;
 }
+#sidebar{
+	background: #c9c;
+	clear: both;
+	color: #333;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;
+}
 #content{
-	background: #fff;
+	background: #9c9;
 	clear: both;
 	color: #333;
 	padding: 10px 20px 40px 20px;
@@ -107,12 +114,10 @@ p {
 #footer {
 	clear: both;
 	padding: 6px 10px;
+	text-align: right;
 }
 #header a, #footer a {
 	color: #fff;
-}
-#cake-powered {
-	float: right;
 }
 
 /** containers **/
